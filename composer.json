@@ -1,0 +1,22 @@
+{
+    "name": "micha/tax-calc",
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichalDabrowski\\TaxCalc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MichalDabrowski\\TaxCalc\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michał Dąbrowski",
+            "email": "michalpietryka@outlook.com"
+        }
+    ]
+}
